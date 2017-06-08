@@ -1,0 +1,10 @@
+[user]
+	useconfigonly = true
+[color]
+	ui = auto
+[core]
+	editor = mousepad
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
