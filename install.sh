@@ -5,7 +5,12 @@ wget -O ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contri
 cat bashrc.append >> ~/.bashrc
 cp -T gitconfig ~/.gitconfig
 
-# TODO fix this line to create destination directory if necessary
-#cp -T config/gsmartcontrol/gsmartcontrol.conf ~/.config/gsmartcontrol/gsmartcontrol.conf
+# gsmartcontrol settings
+# ======================
+#
+# Create gsmartcontrol config directory if necessary
+mkdir -p ~/.config/gsmartcontrol
+# TODO Rewrite to modify gsmartcontrol.conf instead of completely replacing it
+cp -t  ~/.config/gsmartcontrol config/gsmartcontrol/gsmartcontrol.conf
 
 . ~/.bashrc
