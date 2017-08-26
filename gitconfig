@@ -3,7 +3,7 @@
 [color]
 	ui = auto
 [core]
-	editor = mousepad
+	editor = nano
 [push]
 	default = upstream
 [merge]
