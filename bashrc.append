@@ -1,5 +1,8 @@
 
 
+# Add ~/bin to PATH
+PATH="$PATH:~/bin"
+
 # Enable tab completion for git commands
 source ~/.git-completion.bash
 
