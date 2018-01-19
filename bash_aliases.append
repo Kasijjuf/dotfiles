@@ -2,3 +2,5 @@
 
 # I keep mistyping 'apt'
 alias atp='apt'
+
+alias ll='ls -AlF'
