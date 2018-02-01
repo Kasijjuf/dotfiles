@@ -4,3 +4,6 @@
 alias atp='apt'
 
 alias ll='ls -AlF'
+
+alias ..='cd ..'
+alias ...='cd ../..'
