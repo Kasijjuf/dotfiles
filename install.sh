@@ -1,7 +1,7 @@
 #!/bin/sh
 
-wget -O ~/.git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
-wget -O ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+ln -s -T /usr/share/bash-completion/completions/git ~/.git-completion.bash
+ln -s -T /usr/lib/git-core/git-sh-prompt ~/.git-prompt.sh
 cat bash_aliases.append >> ~/.bash_aliases
 cat bashrc.append >> ~/.bashrc
 cp -T gitconfig ~/.gitconfig
