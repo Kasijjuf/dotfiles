@@ -20,5 +20,3 @@ cp -T --backup=numbered --update bashrc-append ~/.bashrc-append
 
 # gitconfig
 cp -T --backup=numbered --update gitconfig ~/.gitconfig
-
-. ~/.bashrc
