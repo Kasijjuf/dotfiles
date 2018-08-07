@@ -1,7 +1,10 @@
 
 
-# Add ~/bin to PATH
-PATH="$PATH:~/bin"
+# Add ~/bin to PATH if not already present
+case "$PATH" in
+    *\~/bin*) ;;
+           *) PATH="$PATH:~/bin";;
+esac
 
 # Enable tab completion for git commands
 source ~/.git-completion.bash
