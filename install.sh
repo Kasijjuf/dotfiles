@@ -15,8 +15,8 @@ cp -T --backup=numbered --update bash_aliases ~/.bash_aliases
 
 # bashrc
 grep -q '\.\ \~/\.bashrc-append' ~/.bashrc || echo \
-"\nif [ -f ~/.bashrc-append ]; then\n    . ~/bashrc-append\nfi" >> ~/.bashrc
-cp -T --backup=numbered --update bashrc-append ~/.bashrc
+"\nif [ -f ~/.bashrc-append ]; then\n    . ~/.bashrc-append\nfi" >> ~/.bashrc
+cp -T --backup=numbered --update bashrc-append ~/.bashrc-append
 
 # gitconfig
 cp -T --backup=numbered --update gitconfig ~/.gitconfig
