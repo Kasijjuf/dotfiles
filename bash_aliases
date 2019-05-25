@@ -1,5 +1,3 @@
-
-
 alias ll='ls -AlF'
 alias l1='ls -1'
 
